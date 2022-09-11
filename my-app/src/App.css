@@ -1,5 +1,47 @@
 .App {
   text-align: center;
+  background-color: khaki;
+  background-image: url(../public/images/photo-1485178075098-49f78b4b43b4.avif);
+  background-repeat: no-repeat;
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.main-background {
+  background-color: #ffffff;
+  background-image: url(../public/images/photo-1485178075098-49f78b4b43b4.avif);
+  background-repeat: no-repeat;
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.login {
+  width: 350px;
+  max-width: 500px;
+  margin: 32px auto 37px;
+  float:right;
+  top: -200px;
+
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 500px) {
+  .login {
+    width: 40rem;
+  }
+}
+  
+.booking {
+  
+  height: 200px;
+  
 }
 
 .App-logo {
