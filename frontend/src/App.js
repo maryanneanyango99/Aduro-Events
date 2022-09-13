@@ -9,7 +9,9 @@ import {Button, Badge} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
+fetch("https://adurooo78.herokuapp.com/events")
+  .then((r) => r.json())
+  .then((data) => console.log(data));
 function App() {
   return (
     <div className="App">
