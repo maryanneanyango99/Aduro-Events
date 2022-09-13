@@ -4,7 +4,7 @@ import BookingForm from './components/BookingForm';
 import About from './components/About';
 import LoginForm from './components/LoginForm';
 import MainBackground from './components/MainBackground';
-/*import Appointment from './components/Appointment';*/
+import { requests } from './components/request';
 import {Button, Badge} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
