@@ -2,6 +2,9 @@
 Title
 ADURO-EVENTS
 
+# BACKEND FOR THIS PROJECT
+ https://github.com/maryanneanyango99/phase-3-sinatra-react-project
+ 
 Description
 People have based their daily lives acquiring almost everything they nedd online,,Aduro is one of the many applications that help various users of its application book for various event services by its able team at the same time improving the service provison industry.
 we plan weddings,conference meeting and many more events by just a sing click booking.
