@@ -1,10 +1,11 @@
 import './App.css';
 import Home from './components/home';
-import BookingForm from './components/BookingForm';
 import About from './components/About';
+
 import LoginForm from './components/LoginForm';
-import MainBackground from './components/MainBackground';
-import { requests } from './components/request';
+import BookingForm from './components/BookingForm';
+import Footer from './components/footer';
+import Main from './components/image';
 import {Button, Badge} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,15 +19,18 @@ function App() {
       <h1> Aduro </h1>
       {/* <h2>comeback</h2> */}
       <Home/>
-      <BookingForm/>
       <About/>
       <LoginForm/>
-      <MainBackground/>
+      <Main/>
+      <BookingForm/>
+      <Footer/>
       
       <useModal/>
       
       
+      
       <p>
+        
         <Button variant="primary">
           Profile <Badge bg="secondary">9</Badge>
           <span className="visually-hidden">unread messages</span>

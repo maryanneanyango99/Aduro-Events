@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: khaki;
-  background-image: url(../public/images/photo-1485178075098-49f78b4b43b4.avif);
+  background-color: aliceblue;
+  /* background-image: url(../public/images/photo-1519225421980-715cb0215aed.avif); */
   background-repeat: no-repeat;
   height: 100%; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -9,15 +9,15 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 
 }
-.main-background {
-  background-color: #ffffff;
-  background-image: url(../public/images/photo-1485178075098-49f78b4b43b4.avif);
-  background-repeat: no-repeat;
-  height: 100%; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
+.home {
+  /* background-color: green; */
+  height: 80px;
+  margin: 1.5%;
+  }
+  .home a{
+    margin: 10%;
+    font-size: 30px;
+  }
 
 .login {
   width: 350px;
@@ -38,6 +38,24 @@
   }
 }
   
+.bookingForm {
+  /* background-color: rgb(255, 221, 127); */
+  height: 200px;
+  width: 20%;
+  margin-left: 70%;
+
+
+}
+
+
+.bookingForm button{
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
 .booking {
   
   height: 200px;
