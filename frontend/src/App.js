@@ -5,7 +5,7 @@ import About from './components/About';
 import LoginForm from './components/LoginForm';
 import BookingForm from './components/BookingForm';
 import Footer from './components/footer';
-import Main from './components/image';
+// import Main from './components/Main';
 import {Button, Badge} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,7 +21,7 @@ function App() {
       <Home/>
       <About/>
       <LoginForm/>
-      <Main/>
+       {/* <Main/>  */}
       <BookingForm/>
       <Footer/>
       
